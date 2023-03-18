@@ -68,11 +68,31 @@ a:hover,
     margin-bottom: 2rem;
 }
 
-
-
-.bouncy:hover
+.attention-bouncy:hover
 {
     animation: bounce;
-    animation-duration: 0.25s;
-    animation-delay: 0;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+.attention-flash:hover
+{
+    animation: flash;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+.attention-pulse:hover
+{
+    animation: pulse;
+    animation-duration: 1s;
+    animation-delay: 0.2s;
+}
+
+.attention-rubberband:hover
+{
+    animation: rubberBand;
+    animation-duration: 0.5s;
+    animation-delay: 0.2s;
+    animation-iteration-count: infinite;
 }
