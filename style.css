@@ -1,0 +1,78 @@
+html, body
+{
+    font-size: 16px;
+    font-family: 'Noto Sans', sans-serif;
+    line-height: 1.5rem;
+
+    color: #232323;
+    background-color: #efefef;
+
+    margin: 0;
+    padding: 0;
+
+    width: 100%;
+    height: 100%;
+}
+
+.container
+{
+    margin-left: auto;
+    margin-right: auto;
+
+    padding-top: 2rem;
+
+    width: 100%;
+    max-width: 720px;
+
+    height: auto;
+}
+
+.header
+{
+    font-size: 2rem;
+    font-weight: 700;
+    text-decoration: underline;
+
+}
+
+h1, h2, h3
+{
+    font-weight: 700;
+}
+
+ul
+{
+    padding-left: 0;
+}
+
+.header a:link,
+.header a:visited,
+.header a:active
+{
+    color: #000;
+    text-decoration: none;
+}
+
+a:hover,
+.header a:hover
+{
+    color: #af0000;
+}
+
+
+.section
+{
+    border-radius: 10px;
+    background-color: #fff;
+    padding: 2rem 2rem 2rem 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+.bouncy:hover
+{
+    animation: bounce;
+    animation-duration: 0.25s;
+    animation-delay: 0;
+}
